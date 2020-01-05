@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Location</title>
+		<link rel="stylesheet" href="./index.css" type="text/css" />
+		<script src="https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js"></script>
+		<link
+			href="https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<nav>
+			<div class="nav-logo">
+				<li><a href="#">Home</a></li>
+			</div>
+			<div class="nav-title">
+				<h1>Location Locator</h1>
+			</div>
+			<div class="add-address">
+				<li><a href="./create.html">Create Location</a></li>
+			</div>
+		</nav>
+		<section>
+			<div class="map-container">
+				<div class="map-display" id="map"></div>
+			</div>
+		</section>
+		<footer class="footer">
+			<p>Copyright&copy; 2020 thaddydore. All rights reserved</p>
+		</footer>
+		<!-- for location search -->
+		<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.min.js"></script>
+		<link
+			rel="stylesheet"
+			href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.css"
+			type="text/css"
+		/>
+		<script src="map.js"></script>
+	</body>
+</html>
