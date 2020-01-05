@@ -1,5 +1,6 @@
 
-mapboxgl.accessToken = process.env.Access_Token;
+
+mapboxgl.accessToken = "pk.eyJ1IjoidGhhZGR5ZG9yZSIsImEiOiJjazR4Y2t2aWowb3V4M2xycGxjaWY3cTIwIn0.-rp39n7cDcaP5ohf3J10PA"
 
 //map style settings
 var map = new mapboxgl.Map({
