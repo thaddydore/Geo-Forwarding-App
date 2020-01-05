@@ -1,5 +1,5 @@
 
-mapboxgl.accessToken = toString(process.env.Access_Token);
+mapboxgl.accessToken = process.env.Access_Token;
 
 //map style settings
 var map = new mapboxgl.Map({
