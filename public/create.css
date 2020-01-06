@@ -127,7 +127,7 @@ section .map-container {
 	section .map-container {
 		width: 80%;
 		margin: 5px auto;
-		height: 83vh;
+		height: 60vh;
 	}
 
 	.button button {

@@ -7,7 +7,6 @@ var map = new mapboxgl.Map({
 	container: "map",
 	style: "mapbox://styles/mapbox/streets-v11",
 	center: [6.802949, 6.141312],
-	zoom: 13,
 	antialias: true,
 	zoom: 11,
 	pitch: 60,
