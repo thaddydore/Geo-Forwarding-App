@@ -1,122 +1,150 @@
-*{
-  padding: 0px 0px;
-  margin: 0px 0px;
-  box-sizing: border-box;
+* {
+	padding: 0px 0px;
+	margin: 0px 0px;
+	box-sizing: border-box;
 }
 
 nav {
-  background-color: rgb(56, 78, 201);
-  width: 100%;
-  height: 7vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+	background-color: rgb(56, 78, 201);
+	width: 100%;
+	height: 6vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 nav .nav-logo li {
-  list-style: none;
-  margin: 20px;
+	list-style: none;
+	margin: 20px;
 }
 
 nav .nav-logo li a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 20px;
-  padding: 8px 15px;
-  border-radius: 5px;
-  transition: background-color 0.5s ease;
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	padding: 8px 15px;
+	border-radius: 5px;
+	transition: background-color 0.5s ease;
 }
 
 nav .nav-logo li a:hover {
-  color: rgb(56, 78, 201);
-  background: #fff;
+	color: rgb(56, 78, 201);
+	background: #fff;
 }
 
-nav .nav-title{
-  color: #fff;
-  margin: 0px auto
+nav .nav-title {
+	color: #fff;
+	margin: 0px auto;
 }
 
 /*styling containers*/
-section .map-container{
-  width: 85%;
-  margin: 0px auto;
-  border-radius: 4px;
-  height: 85vh;
-  border: 2px solid #ccc;
-  margin-top: 5px;
-  box-shadow: 1px 1px 1px 1px #ccc;
+section .map-container {
+	width: 85%;
+	margin: 0px auto;
+	border-radius: 4px;
+	height: 85vh;
+	border: 2px solid #ccc;
+	margin-top: 5px;
+	box-shadow: 1px 1px 1px 1px #ccc;
 }
 
 .wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 .wrapper h1 {
-  width: 100%;
-  background-color: rgb(56, 78, 201);
-  color: #fff;
-  text-align: center;
-  margin: 4px 4px;
-  border-radius: 4px;
-  padding: 5px;
+	width: 100%;
+	background-color: rgb(56, 78, 201);
+	color: #fff;
+	text-align: center;
+	margin: 4px 4px;
+	border-radius: 4px;
+	padding: 5px;
 }
 
 .wrapper form {
-  height: 20vh;
-  display: flex;
-  display: table;
-  margin-top: 20px;
- 
+	height: 20vh;
+	display: flex;
+	display: table;
+	margin-top: 20px;
 }
 
 .wrapper form .form-div {
-  display: table-row;
-  margin: 30px
+	display: table-row;
+	margin: 30px;
 }
 
-.wrapper .form-div .lab{
-  display: table-cell;
-  padding: 2px;
-  text-align: left;
+.wrapper .form-div .lab {
+	display: table-cell;
+	padding: 2px;
+	text-align: left;
 }
 
-.wrapper .form-div .inp{
-  display: table-cell;
-  padding: 2px;
- text-align: left;
- margin: 0px 4px
-}
-
-.storeid, .storeAddress{
-  width: 100%;
-  height: 4vh;
+.wrapper .form-div .inp {
+	display: table-cell;
+	padding: 2px;
+	text-align: left;
+	margin: 0px 4px;
 }
 
 .button {
-  display: flex;
-  justify-content: flex-start;
+	display: flex;
+	justify-content: flex-start;
 }
 
-.button input{
-  margin: 2px;
-  padding: 2px;
-  background-color: rgb(56, 78, 201);
-  color: #fff;
-  border-radius: 4px;
+.button button {
+	margin: 2px;
+	padding: 2px;
+	background-color: rgb(56, 78, 201);
+	color: #fff;
+	border-radius: 4px;
 }
 
-.footer{
+.footer {
 	margin-top: 20px;
 	height: 5vh;
 	width: 100%;
 	color: #fff;
 	text-align: center;
-  background-color:rgb(56, 78, 201);;
-  position: fixed;
-  bottom: 0px;
-  left: 0px
+	background-color: rgb(56, 78, 201);
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+}
+
+@media (max-width: 380px) {
+	body h1 {
+		font-size: 15px;
+	}
+
+	nav {
+		margin-bottom: 20px;
+	}
+
+	section .map-container {
+		width: 80%;
+		margin: 5px auto;
+		height: 83vh;
+	}
+
+	.button button {
+		margin-left: 5px;
+	}
+	.wrapper form {
+		width: 100%;
+  }
+  
+  .wrapper .form-div .inp{
+    border-color: #ccc;
+    margin-right: 8px;
+  }
+
+
+.wrapper .form-div .lab {
+	padding-left: 8px;
+	text-align: left;
+}
 }
