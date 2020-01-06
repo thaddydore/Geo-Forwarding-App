@@ -70,18 +70,6 @@ section .map-display {
 	height: 79vh;
 }
 
-.footer{
-	margin-top: 5px;
-	height: 5vh;
-	width: 100%;
-	color: #fff;
-	text-align: center;
-	background-color:rgb(56, 78, 201);
-	position: fixed;
-  bottom: 0px;
-  left: 0px
-}
-
 @media (max-width: 380px) {
 	body h1{
 		font-size: 15px
