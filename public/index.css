@@ -56,26 +56,39 @@ nav .add-address li a:hover {
 }
 
 section .map-container {
-	width: 90%;
-	margin: 0px auto;
+	width: 80%;
+	margin: 20px auto;
 	border-radius: 4px;
-	height: 85vh;
+	height: 80vh;
 	border: 2px solid #ccc;
-	margin-top: 5px;
+	margin-top: 10px;
 	box-shadow: 1px 1px 1px 1px #ccc;
 }
 
 section .map-display {
 	width: 100%;
-	height: inherit;
+	height: 79vh;
 }
 
 .footer{
-	margin-top: 10px;
+	margin-top: 5px;
 	height: 5vh;
 	width: 100%;
 	color: #fff;
 	text-align: center;
-	background-color:rgb(56, 78, 201);;
+	background-color:rgb(56, 78, 201);
+	position: fixed;
+  bottom: 0px;
+  left: 0px
+}
+
+@media (max-width: 380px) {
+	body h1{
+		font-size: 15px
+	}
+
+	nav {
+		margin-bottom: 20px;
+	}
 }
 

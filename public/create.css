@@ -110,10 +110,13 @@ section .map-container{
 }
 
 .footer{
-	margin-top: 10px;
+	margin-top: 20px;
 	height: 5vh;
 	width: 100%;
 	color: #fff;
 	text-align: center;
-	background-color:rgb(56, 78, 201);;
+  background-color:rgb(56, 78, 201);;
+  position: fixed;
+  bottom: 0px;
+  left: 0px
 }
